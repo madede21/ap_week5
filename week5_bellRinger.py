@@ -97,12 +97,15 @@ print(joined_motto)
 
 
 # Modify the sentence: "Life is what happens when you are busy making other plans."
-
+phrase3 = "Life is what happens when you are busy making other plans."
 
 # a. Replace "busy" with "distracted".
-
-
+replace_busy_to_distracted = phrase3.replace("busy", "distracted")
+print (replace_busy_to_distracted)
 # b. Replace "plans" with "mistakes".
+replace_plans_to_mistakes =phrase3.replace("plans", "mistakes")
+print(replace_plans_to_mistakes)
+
 
 # Problem Set 4: String Properties and Advanced Operations
 # Repetition:
