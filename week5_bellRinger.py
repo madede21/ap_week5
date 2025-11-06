@@ -45,10 +45,27 @@ extracted_name = print(famous_quote[98:])
 
 
 # Manipulating Words:
+
+
 # Given the string info = "Python is fun. Fun is good. Good is subjective.",
+phrase1 = "Python is fun. Fun is good. Good is subjective."
+
 # a. Extract the word 'subjective' without knowing its exact position.
+subjective = print(phrase1.find("subjective"))
+
 # b. Extract every third word.
+every_3rd_letter = print(phrase1[::3])
+
 # c. Reverse the positions of the words, but keep the characters in each word in the same order.
+
+words = phrase1.split()
+print(words)
+
+
+
+
+
+reversed_phrase1 = ' ' .join(reversed(words))
 
 # Problem Set 3: String Methods
 # Upper & Lower:
