@@ -69,16 +69,39 @@ reversed_phrase1 = ' ' .join(reversed(words))
 
 # Problem Set 3: String Methods
 # Upper & Lower:
+
 # Convert the following text to lowercase: "MAY THE FORCE BE WITH YOU."
 
+phrase2 = "MAY THE FORCE BE WITH YOU."
+
+lower_phrase = phrase2.lower()
+print(lower_phrase)
+
+
 # String Joining and Splitting:
+
+
+
 # Given the list motto = ["Make", "haste", "slowly."],
+motto = ["make", "haste", "slowly."]
+
 # a. Convert the list into a single string.
+
+joined_motto = ' '.join(motto)
+print(joined_motto)
+
 # b. Now, split the string at every occurrence of the letter 'a'.
 
+
 # Replacing Words:
+
+
 # Modify the sentence: "Life is what happens when you are busy making other plans."
+
+
 # a. Replace "busy" with "distracted".
+
+
 # b. Replace "plans" with "mistakes".
 
 # Problem Set 4: String Properties and Advanced Operations
