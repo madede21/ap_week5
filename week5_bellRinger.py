@@ -1,7 +1,11 @@
 # Problem Set 1: Indexing and Slicing Strings
 # Basic Indexing:
 # Given the string magic = 'abracadabra',
+magic = 'abracadabra'
+
 # a. Retrieve the 5th character.
+fifth_char = magic[4]
+
 # b. Retrieve the second to last character.
 # c. Find the first occurrence of the letter 'c'.
 
