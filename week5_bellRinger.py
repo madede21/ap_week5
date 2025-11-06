@@ -16,9 +16,21 @@ last_a_index = print(magic.rindex('c'))
 
 # Advanced Slicing:
 # Given the string alphabet = 'abcdefghijklmnopqrstuvwxyz',
+alphabet = 'abcdefghijklmnopqrstuvwxyz'
+
 # a. Extract the letters 'hij'.
+
+
 # b. Extract every second letter starting from 'a' to 'm'.
+hij = print(alphabet.index('hij'))
+m_index = print(alphabet.index('m'))
 # c. Reverse the entire string using slicing.
+every_second = print(alphabet[0:13:2])
+reversed_alphabet = print(alphabet[: :-1])
+
+i_have_a_dream = "Free at last! Free at last! Thank God Almighty, we are free at last!"
+
+reversed_dream = print(i_have_a_dream[: :-1])
 
 # Problem Set 2: Extracting Information
 # From Descriptions:
